@@ -1,7 +1,7 @@
 from indexer import embed_texts
 
 
-def search(question, index, chunks, top_k=3):
+def search(question, index, chunks, top_k=6):
     """Find the chunks most relevant to the question."""
     question_vector = embed_texts([question])
 
